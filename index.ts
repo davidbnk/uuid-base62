@@ -5,13 +5,13 @@ const BASE62 = baseX('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUV
 const OUTPUT_LENGTH = 22;
 
 export default class UUID62 {
-	v4() {
+	public v4() {
 		const buffer = Buffer.alloc(16);
 		const id = uuid.v4(null, buffer);
 		return this.encode(id);
 	}
 
-	encode(input: Buffer, encoding?: string) {
+	public encode(input: Buffer, encoding?: string) {
 		encoding = encoding || 'hex';
 		return ensureLength(BASE62.encode(input), OUTPUT_LENGTH);
 	}

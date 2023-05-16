@@ -1,18 +1,26 @@
 {
-	"name": "@davidbnk/uuid-base62",
-	"author": "David Benko",
-	"license": "MIT",
-	"main": "index.js",
-	"types": "index.d.ts",
-	"version": "1.0.0",
-	"description": "Base-62 v4 UUID generator",
-	"scripts": {},
-	"dependencies": {
-		"base-x": "4.0.0",
-		"uuid": "9.0.0"
-	},
-	"devDependencies": {
-		"@types/node": "^20.1.5",
-		"@types/uuid": "^9.0.1"
-	}
+  "name": "@davidbnk/uuid-base62",
+  "author": "David Benko",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "version": "1.0.0",
+  "description": "Base-62 v4 UUID generator",
+  "scripts": {},
+  "dependencies": {
+    "base-x": "4.0.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.5",
+    "@types/uuid": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbnk/uuid-base62.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidbnk/uuid-base62/issues"
+  },
+  "homepage": "https://github.com/davidbnk/uuid-base62#readme"
 }
